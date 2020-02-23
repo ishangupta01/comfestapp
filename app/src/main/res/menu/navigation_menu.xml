@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_events"
+        android:title="Events"
+        android:icon="@drawable/ic_laptop_mac_black_24dp"
+    />
+    <item android:id="@+id/nav_chat"
+        android:title="Messages"
+        android:icon="@drawable/ic_chat_black_24dp"
+        />
+    <item android:id="@+id/nav_about"
+        android:title="About Us"
+        android:icon="@drawable/ic_assignment_black_24dp"/>
+
+    <item android:id="@+id/nav_sponsors"
+        android:title="Our Sponsors"
+        android:icon="@drawable/ic_people_black_24dp"/>
+
+    <item android:id="@+id/nav_schedule"
+        android:title="Schedule"
+        android:icon="@drawable/ic_insert_invitation_black_24dp"
+        />
+</menu>

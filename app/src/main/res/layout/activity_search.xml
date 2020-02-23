@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.comfest.cf18.SearchActivity"
+    android:background="@drawable/butback2">
+    <include layout="@layout/app_bar_layout"
+
+        android:id="@+id/searchtoolbar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout2"
+        android:layout_below="@+id/searchtoolbar"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="45dp"
+            android:inputType="textPersonName"
+            android:hint="Search by name..."
+            android:id="@+id/searchfield"
+            android:textColor="@color/thelight"
+            android:textAlignment="center"
+            android:background="@drawable/searchbackground"
+            android:padding="2dp"
+            android:ems="10"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+    />
+        <ImageButton
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_search_black_24dp"
+            android:scaleType="centerInside"
+            android:background="@drawable/searchbackground"
+            android:id="@+id/searchbutton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:id="@+id/buttonsusername"
+    android:layout_below="@+id/linearLayout2"
+    android:layout_marginTop="10dp"
+    >
+
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="7.5dp"
+        android:layout_marginRight="15dp"
+        android:text="By Display Name (CASE SENSITIVE)"
+        android:textColor="#ffffff"
+        android:textSize="16dp"
+        android:textAllCaps="true"
+        android:background="@drawable/buttonbackground1"
+        android:id="@+id/bydn"/>
+
+</LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonsusername"
+        android:id="@+id/result_list"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"/>
+</RelativeLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/butback2"
+    tools:context="com.comfest.cf18.AboutActivity">
+    <include layout="@layout/app_bar_layout"
+
+        android:id="@+id/abouttoolbar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/abouttoolbar"
+        android:layout_centerHorizontal="true">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Us"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:layout_margin="25dp"/>
+        <com.comfest.cf18.TwoThreeImage
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/cfest350"
+            android:background="@drawable/backofimage"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:padding="9dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="Comfest is an annual national-level techno-cultural event organized by the Jaipuria Computer Club at Seth Anandram Jaipuria School, Kanpur. This year's edition shall be held from 25th October to 28th October, 2018.\nThe event's uniqueness is accentuated by the fact that each year, it is solely conceived, planned and organized by the students of the Jaipuria Computer Club, with teacher involvement being negligible. At Comfest, students compete in an array of diverse events that test a multitude of their skills. Being organized for the past 17 years, Comfest has successfully carved a niche for itself by becoming one of the largest student-organized events in India."/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comfest 2017"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:textColor="#ffffff"
+            android:layout_margin="25dp"/>
+        <com.comfest.cf18.TwoThreeImage
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/pres"
+            android:background="@drawable/backofimage"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:padding="9dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="Comfest 2017 was the largest student organized school level fest in India. It was a 4-day fest which witnessed participation from more than 55 schools with over 800 participants. The brochure of Comfest 2017 was unveiled by the Hon'ble President of India- Shri Ram Nath Kovind Ji."/>
+
+        <com.comfest.cf18.TwoThreeImage
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/euphoria"
+            android:background="@drawable/backofimage"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:padding="9dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="Day 1 of the fest welcomed Hon'ble Cabinet Minister in the Govt. of Uttar Pradesh from Kanpur, Shri Satyadeva Pachauri ji in the opening ceremony. The District Magistrate of Kanpur, Hon'ble Surendra Singh attended the closing ceremony as the Chief Guest."/>
+
+        <com.comfest.cf18.TwoThreeImage
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/cf"
+            android:background="@drawable/backofimage"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:padding="9dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:text="The entertainment evening of Comfest 2017 saw the benign presence of the Deputy Chief Minister of the state of Uttar Pradesh, Professor Dr. Dinesh Sharma, as the Chief Guest of the ceremony. The famous band 'Euphoria' performed at the entertainment evening. The entire Comfest 2017 was also live streamed across various social media platforms."/>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Mail The Developer"
+        android:id="@+id/maildev"/>
+    <item android:title="Our Website"
+        android:id="@+id/menuwebsite"/>
+    <item android:title="Facebook Page"
+        android:id="@+id/menufacebook"/>
+    <item android:title="Instagram Page"
+        android:id="@+id/menuinstagram"/>
+    <item android:title="Mail Us"
+        android:id="@+id/menumailus"/>
+    <item android:title="Account Settings"
+        android:id="@+id/settingsacc"/>
+    <item android:title="Log Out"
+        android:id="@+id/logoutmain" />
+</menu>

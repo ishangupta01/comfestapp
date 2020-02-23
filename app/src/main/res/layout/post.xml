@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundbackpost"
+    android:layout_marginTop="7dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="7dp"
+        android:paddingLeft="7dp">
+
+        <ImageButton
+            android:id="@+id/post_dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/defpic"
+            android:layout_height="50dp"
+            android:padding="0dp"
+            android:layout_width="50dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <Button
+        android:text="Ishan Gupta"
+        android:id="@+id/post_name_button"
+        android:layout_marginLeft="7dp"
+        android:background="@color/toolbar"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:paddingLeft="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        android:layout_height="30dp"
+        android:layout_width="225dp"/>
+    <Button
+        android:text="(50 minutes ago)"
+        android:id="@+id/post_time_button"
+        android:background="@color/toolbar"
+        android:textAlignment="textStart"
+        android:layout_gravity="start"
+        android:paddingRight="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:textAllCaps="false"
+        android:layout_height="20dp"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="7dp"
+        android:paddingLeft="5dp"/>
+</LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/toolbar"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginTop="5dp"
+        android:text="We present to you, the one and only!\nThe Marvelous\nThe Amazing!"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:textSize="13sp"
+        android:id="@+id/caption_post"
+        android:layout_gravity="start"
+        android:textAlignment="textStart"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <com.comfest.cf18.TwoThreeImageButton
+            android:src="@drawable/back2"
+            android:id="@+id/post_image"
+            android:scaleType="fitCenter"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="225dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_weight="1.75" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp">
+            <ImageButton
+
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_favorite_black_24dp"
+                android:id="@+id/rate5"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_weight="0.4"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                android:orientation="horizontal"
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/darkroundbackpost"
+                    android:orientation="horizontal">
+                    <Button
+                        android:text="342"
+                        android:layout_width="43dp"
+                        android:id="@+id/totalvote"
+                        android:background="@android:color/transparent"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginBottom="3dp"
+                        android:layout_marginTop="3dp"
+                        android:textColor="@android:color/white"
+                        android:textSize="15sp"
+                        android:layout_height="28dp" />
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/pinkheart"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="5dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:background="@android:color/transparent"
+                android:text="..."
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:id="@+id/yourvote"
+                android:layout_gravity="center_vertical|end" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

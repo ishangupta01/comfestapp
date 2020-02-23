@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogcaption"
+    android:layout_width="match_parent"
+    android:orientation="vertical" android:layout_height="wrap_content">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Caption"
+    android:id="@+id/captiontext"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/donebut"
+            android:text="Done"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:id="@+id/cancelbut"
+            android:text="Cancel"/>
+    </LinearLayout>
+</LinearLayout>

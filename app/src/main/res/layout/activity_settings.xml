@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.comfest.cf18.SettingsActivity"
+    android:background="@drawable/butback2">
+    <include layout="@layout/app_bar_layout"
+
+        android:id="@+id/settings_toolbar" />
+
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/setprogbar"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        android:layout_alignParentBottom="true" />
+
+    <Button
+        android:text="change status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/changestat"
+
+
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:textAllCaps="true"
+        android:layout_alignRight="@+id/changedp"
+        android:layout_alignEnd="@+id/changedp"
+        android:layout_alignLeft="@+id/changedp"
+        android:layout_alignStart="@+id/changedp"
+        android:layout_centerHorizontal="true"
+
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:text="Display Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nametext"
+        android:textSize="26sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/circleImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:text="@string/main_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/statustext"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/nametext" />
+
+    <ImageView
+        android:layout_width="200dp"
+        app:srcCompat="@drawable/defpic"
+        android:id="@+id/circleImageView"
+        android:layout_marginTop="30dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/settings_toolbar"
+        android:padding="6dp"
+        android:background="@drawable/borderonly"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:text="Change Profile Picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/changedp"
+        android:background="@color/colorPrimary"
+        android:textAllCaps="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_centerInParent="false"
+        android:layout_above="@+id/changestat"
+        android:layout_marginBottom="10dp"
+        android:textColor="#ffffff"
+        android:layout_centerVertical="false"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp" />
+
+</RelativeLayout>

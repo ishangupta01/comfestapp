@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   <color name="colorPrimary">#BA68C8</color>
+     <color name="colorPrimaryDark">#4a148c</color>
+     <color name="colorAccent">#f50057</color>
+     <color name="thelight">#CCCCCC</color>
+     <color name="toolbar">#7B1FA2</color>
+        -->
+   <color name="colorPrimary">#540086</color>
+     <color name="colorPrimaryDark">#1E0027</color>
+     <color name="colorAccent">#ff0039</color>
+     <color name="thelight">#CCCCCC</color>
+
+    <color name="toolbar">#2b0045</color>
+</resources>

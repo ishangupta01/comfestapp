@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.comfest.cf18.HomeActivity"
+    android:background="@color/colorPrimaryDark">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerVertical="false"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="40dp"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/layoutofbuttons">
+
+    <Button
+        android:text="have an account? Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textSize="16sp"
+        android:textColor="@android:color/background_light"
+        android:textStyle="normal|bold"
+/>
+
+
+<Button
+        android:text="Request a new account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reg"
+        android:background="@color/colorPrimary"
+        android:textSize="16sp"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="15dp"/>
+
+
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/cfest500px"
+        android:id="@+id/imageView4"
+        android:scaleType="fitCenter"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/layoutofbuttons"
+        android:layout_margin="30dp"/>
+
+</RelativeLayout>

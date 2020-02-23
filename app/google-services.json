@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "294938909921",
+    "firebase_url": "https://cf18-707b8.firebaseio.com",
+    "project_id": "cf18-707b8",
+    "storage_bucket": "cf18-707b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294938909921:android:588a34b72f910174",
+        "android_client_info": {
+          "package_name": "com.comfest.cf18"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294938909921-rumrr8g8vm6alb15iub3j9upmeif9fmc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIyOANQrgpEgx21W6Cc5GHvH6zpd50igU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

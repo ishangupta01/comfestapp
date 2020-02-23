@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_image_activty"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.comfest.cf18.ImageActivity"
+    android:background="@drawable/butback2">
+    <include layout="@layout/app_bar_layout"
+
+        android:id="@+id/image_toolbar" />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imagetosee"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:layout_below="@+id/image_toolbar" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyle"
+        android:indeterminate="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progbarimage"
+        android:layout_centerInParent="true"
+        android:visibility="visible"
+        />
+</RelativeLayout>
