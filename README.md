@@ -8,4 +8,4 @@ Download from the Google Play Store: https://play.google.com/store/apps/details?
 2. In-App Messaging
 3. Media Sharing and Status Update
 4. Account Management (Name, Profile Picture, Status etc.)
-5. Information Accessibility and Regular Alerts included.
+5. Information Accessibility and Regular Alerts also included.
